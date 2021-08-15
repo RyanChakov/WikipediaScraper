@@ -1,3 +1,5 @@
+import os
+os.system("color")
 class color:
    PURPLE = '\033[95m'
    GREEN = '\033[92m'
