@@ -73,3 +73,4 @@ for tag in body.find_all(['h2','p','ul','ol','dl','a']):
 dictionary=dict(sorted(dictionary.items(), key=lambda x: x[1], reverse=True))
 print(color.BLUE+"The word that appears the most in this section is:"+color.GREEN+"",list(dictionary.keys())[0],""+color.BLUE+"and it appears"+color.GREEN+"",dictionary[list(dictionary.keys())[0]],""+color.BLUE+"times"+color.END)
 print ('\n'.join(links))
+input("Press any Key to End")
